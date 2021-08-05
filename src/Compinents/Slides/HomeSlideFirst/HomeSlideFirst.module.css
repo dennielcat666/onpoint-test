@@ -1,0 +1,92 @@
+.wrapper {
+	position: relative;
+	height: 768px;
+	padding: 161px 43px 161px 68px;
+	background-image: url('./background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.title {
+	font-family: 'DINPro';
+	font-weight: 400;
+	font-size: 27px;
+	text-transform: uppercase;
+	color: #242424;
+	letter-spacing: 1.7px;
+}
+
+.subText {
+	position: relative;
+	text-transform: uppercase;
+	font-family: 'Gilroy';
+	font-weight: 300;
+	color: #171717;
+	font-size: 109px;
+	line-height: 118px;
+	margin: 11px 0px 0px 0px;
+	letter-spacing: 6px;
+}
+
+.subTextSpan {
+	font-weight: 800;
+}
+
+.img {
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+.bacteriumTop {
+	background-image: url('./bacteriumTop.png');
+	width: 63px;
+	height: 57px;
+	top: 62px;
+	right: 217px;
+}
+
+.bacteriumRight {
+	background-image: url('./bacteriumRight.png');
+	width: 111px;
+	height: 114px;
+	top: 200px;
+	right: 52px;
+}
+
+.bacteriumButtom {
+	background-image: url('./bacteriumBottom.png');
+	width: 228px;
+	height: 224px;
+	bottom: -98px;
+	right: 254px;
+}
+
+.bacteriumLeft {
+	background-image: url('./bacteriumLeft.png');
+	width: 73px;
+	height: 71px;
+	bottom: 193px;
+	left: 22px;
+}
+
+.pinkSperm {
+	background-image: url('./pinkSperm.png');
+	width: 592px;
+	height: 93px;
+	top: 155px;
+	right: 0px;
+}
+
+.buttonSlide {
+	padding: 0px 0px 0px 53px;
+	width: 289px;
+	position: absolute;
+	right: 65px;
+	bottom: 17px;
+	border-radius: 40px;
+	border: none;
+	letter-spacing: 0.8px;
+	background-image: url('./arrow.png');
+	background-repeat: no-repeat;
+	background-position: 13px 7px;
+}

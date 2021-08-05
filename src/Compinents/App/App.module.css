@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.appWrapper {
+	position: relative;
+	max-width: 1024px;
+	width: 100%;
+	height: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.controlPanel {
+	position: absolute;
+	top: 26px;
+    left: 68px;
+	display: flex;
+	height: 27px;
+	z-index: 2;
+}
+
+.homeButton {
+	display: flex;
+    align-items: center;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	width: 45px;
+	height: 24px;
+	text-align: center;
+}
+
+.homeImg {
+	width: 20px;
+	height: 19px;
+}
+
+.homeText {
+	display: flex;
+    align-items: center;
+	color: #272727;
+	border-left: 1px solid #272727;
+	text-transform: uppercase;
+	font-family: 'Circe';
+	font-weight: 400;
+	font-size: 17px;
+	padding-left: 25px;
+	letter-spacing: 1.7px;
+}
+
+.logoImg {
+	position: absolute;
+	bottom: 13px;
+    left: 70px;
+	width: 57px;
+}

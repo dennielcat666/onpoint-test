@@ -1,0 +1,85 @@
+.wrapper {
+	position: relative;
+	height: 768px;
+	padding: 128px 43px 83px 68px;
+	background-image: url('./background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.title {
+	font-family: 'DINPro';
+	font-weight: 400;
+	font-size: 27px;
+	text-transform: uppercase;
+	color: #242424;
+	letter-spacing: 1.7px;
+}
+
+.textBlock {
+	position: relative;
+	margin: 44px 0px 0px 0px;
+}
+
+.subText {
+	position: absolute;
+	width: 775px;
+	height: 445px;
+	overflow-y: scroll;
+	background-color: #ffffff;
+	font-family: 'DINPro';
+	font-weight: 400;
+	font-size: 22px;
+	color: #242424;
+	letter-spacing: 1.7px;
+	z-index: 2;
+}
+
+.subTextSpan {
+	font-weight: 700;
+}
+
+.img {
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+.spermTopFirst {
+	background-image: url('./spermTopFirst.png');
+	width: 963px;
+	height: 455px;
+	top: 99px;
+	left: 366px;
+}
+
+.spermTopMiddle {
+	background-image: url('./spermTopMiddle.png');
+	width: 440px;
+	height: 195px;
+	top: 97px;
+	right: 0px;
+}
+
+.spermTopLast {
+	background-image: url('./spermTopLast.png');
+	width: 314px;
+	height: 148px;
+	top: 74px;
+	right: 0px;
+}
+
+.spermBottomNear {
+	background-image: url('./spermBottomNear.png');
+	width: 714px;
+	height: 343px;
+	bottom: 15px;
+	right: -579px;
+}
+
+.spermBottomFurther {
+	background-image: url('./spermBottomFurther.png');
+	width: 328px;
+	height: 159px;
+	bottom: 95px;
+	right: -190px;
+}

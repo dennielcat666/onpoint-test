@@ -1,13 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+	font-family: 'Circe';
+	src: url('./fonts/Circe400.woff2') format('woff2'),
+		 url('./fonts/Circe400.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+  }
+
+@font-face {
+	font-family: 'DINPro';
+	src: url('./fonts/DINPro400.woff2') format('woff2'),
+		 url('./fonts/DINPro400.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+  }
+
+@font-face {
+	font-family: 'DINPro';
+	src: url('./fonts/DINPro700.woff2') format('woff2'),
+			url('./fonts/DINPro700.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('./fonts/Gilroy300.woff2') format('woff2'),
+		 url('./fonts/Gilroy300.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Gilroy';
+	src: url('./fonts/Gilroy400.woff2') format('woff2'),
+		 url('./fonts/Gilroy400.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Gilroy';
+	src: url('./fonts/Gilroy800.woff2') format('woff2'),
+		 url('./fonts/Gilroy800.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+  }

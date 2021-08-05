@@ -1,0 +1,8 @@
+.button {
+	cursor: pointer;
+	height: 80px;
+	background-color: #ff6a9f;
+	font-family: 'DINPro';
+	font-weight: 400;
+	font-size: 27px;
+}
