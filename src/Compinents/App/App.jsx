@@ -22,8 +22,8 @@ export function App() {
 			</div>
 			<Carousel>
 				{/* <HomeSlideFirst /> */}
-				<HomeSlideSecond/>
-				{/* <HomeSlideThird/> */}
+				{/* <HomeSlideSecond/> */}
+				<HomeSlideThird/>
 			</Carousel>
 			<Image
 				className={styles.logoImg}

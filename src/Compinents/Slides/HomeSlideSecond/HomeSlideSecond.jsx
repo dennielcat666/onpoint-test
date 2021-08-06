@@ -6,6 +6,11 @@ export function HomeSlideSecond() {
 		<li className={styles.wrapper}>
 			<div className={styles.title}>текст <br/>сообщения</div>
 			<div className={styles.textBlock}>
+				<div className={styles.scrollbar}>
+					<div className={styles.scrollbarTrack}>
+						<div className={styles.scrollbarThumb}></div>
+					</div>
+				</div>
 				<div className={styles.subText}><span className={styles.subTextSpan}>Lorem ipsum dolor sit amet,</span> consectetur adipiscing elit, sed do 
 					eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 					Duis ut diam quam nulla. Mauris in aliquam sem fringilla ut morbi 
