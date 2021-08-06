@@ -1,0 +1,217 @@
+.popupWrapper {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 768px;
+	width: 1024px;
+	padding: 0px 0px 0px 0px;
+	background-color: rgba(22, 39, 62, 0.7);
+	padding: 123px 61px 72px 140px;
+}
+
+.popupBlock {
+	position: relative;
+	background-color: #ffffff;
+	width: 823px;
+	height: 573px;
+	border-radius: 40px;
+	padding: 39px 65px 0px 212px;
+}
+
+.img {
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+.close {
+	cursor: pointer;
+	background-color: #ffffff;
+	border: none;
+	background-image: url('./close.png');
+	width: 34px;
+	height: 35px;
+	top: 32px;
+	right: 32px;
+}
+
+.title {
+	font-family: 'DINPro';
+	font-weight: 400;
+	font-size: 27px;
+	text-transform: uppercase;
+	color: #242424;
+	letter-spacing: 1.7px;
+}
+
+.subText {
+	text-transform: uppercase;
+	font-family: 'Gilroy';
+	font-weight: 400;
+	color: #171717;
+	font-size: 95px;
+	margin: 0px 0px 0px 0px;
+	letter-spacing: 10px;
+	line-height: 110px;
+}
+
+.subTextSpan {
+	font-weight: 800;
+}
+
+.tabs {
+	margin: 22px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	/* position: relative; */
+}
+
+.tabsBlocks {
+
+}
+
+.tabsBlocksContent {
+	display: none;
+}
+
+.visible {
+	display: block;
+}
+
+.tabsLinks {
+    display: flex;
+    justify-content: space-between;
+	width: 90px;
+	height: 20px;
+	position: absolute;
+	bottom: 31px;
+	left: 212px;
+}
+
+.tabsLinkTitle {
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.tabsLinkTitleLeft {
+	background-image: url('./tabLeft.png');
+	width: 39px;
+	height: 16px;
+}
+
+.tabsLinkTitleRigt {
+	background-image: url('./tabRight.png');
+	width: 41px;
+	height: 16px;
+}
+
+.tabsLinkTitleLeft.active {
+	background-image: url('./tabLeftActive.png');
+}
+
+.tabsLinkTitleRigt.active {
+	background-image: url('./tabRightActive.png');
+}
+
+.numbersBlock {
+
+}
+
+.numbersBlock:not(:first-child) {
+	margin: 16px 0px 0px 0px;
+}
+
+.number {
+	font-family: 'Gilroy';
+	font-weight: 800;
+	font-size: 25px;
+	color: #8cc9e8;
+}
+
+.content {
+	margin-top: 5px;
+	line-height: 31px;
+	font-family: 'DINPro';
+	font-weight: 400;
+	font-size: 25px;
+	color: #2e2e2e;
+}
+
+
+
+
+
+
+.bottle {
+	background-image: url('./bottle.png');
+	width: 233px;
+	height: 689px;
+	bottom: 0px;
+	left: 50px;
+	z-index: 1;
+}
+
+.blueBubble1 {
+	background-image: url('./blueBubble1.png');
+	width: 37px;
+	height: 38px;
+	bottom: 664px;
+	left: 198px;
+}
+
+.blueBubble2 {
+	background-image: url('./blueBubble2.png');
+	width: 68px;
+	height: 69px;
+	bottom: 544px;
+	left: 185px;
+	z-index: 2;
+}
+
+.blueBubble3 {
+	background-image: url('./blueBubble3.png');
+	width: 33px;
+	height: 33px;
+	bottom: 282px;
+	left: 11px;
+}
+
+.blueBubble4 {
+	background-image: url('./blueBubble4.png');
+	width: 62px;
+	height: 62px;
+	bottom: 116px;
+	left: 242px;
+}
+
+.blueBubble5{
+	background-image: url('./blueBubble5.png');
+	width: 143px;
+	height: 143px;
+	bottom: -77px;
+	left: 183px;
+	z-index: 2;
+}
+
+.pinkBubbleTop {
+	background-image: url('./pinkBubbleTop.png');
+	width: 34px;
+	height: 34px;
+	bottom: 523px;
+	left: 77px;
+}
+
+.pinkBubbleMiddle {
+	background-image: url('./pinkBubbleMiddle.png');
+	width: 113px;
+	height: 112px;
+	bottom: 341px;
+	left: 186px;
+}
+
+.pinkBubbleBottom {
+	background-image: url('./pinkBubbleBottom.png');
+	width: 75px;
+	height: 75px;
+	bottom: 140px;
+	left: 25px;
+	z-index: 2;
+}
