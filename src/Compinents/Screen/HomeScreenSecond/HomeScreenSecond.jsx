@@ -1,7 +1,7 @@
 import styles from './HomeScreenSecond.module.css';
 import cn from 'classnames'
 
-export function HomeScreenSecond() {
+export function HomeScreenSecond({activeSlide}) {
 	return (
 		<li className={styles.wrapper}>
 			<div className={styles.title}>текст <br/>сообщения</div>
@@ -35,11 +35,21 @@ export function HomeScreenSecond() {
 					condimentum lacinia quis vel.
 				</div>
 			</div>
-			<div className={cn(styles.img, styles.spermTopFirst)}></div>
-			<div className={cn(styles.img, styles.spermTopMiddle)}></div>
-			<div className={cn(styles.img, styles.spermTopLast)}></div>
-			<div className={cn(styles.img, styles.spermBottomNear)}></div>
-			<div className={cn(styles.img, styles.spermBottomFurther)}></div>
+			<div className={cn(styles.img, styles.spermTopFirst, {
+				[styles.active]: activeSlide === 1
+			})}></div>
+			<div className={cn(styles.img, styles.spermTopMiddle, {
+				[styles.active]: activeSlide === 1
+			})}></div>
+			<div className={cn(styles.img, styles.spermTopLast, {
+				[styles.active]: activeSlide === 1
+			})}></div>
+			<div className={cn(styles.img, styles.spermBottomNear, {
+				[styles.active]: activeSlide === 1
+			})}></div>
+			<div className={cn(styles.img, styles.spermBottomFurther,{
+				[styles.active]: activeSlide === 1
+			})}></div>
 		</li>
 	)
 }

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import {Image} from '../Image/Image'
 import { Carousel } from '../Carousel/Carousel';
 import { HomeScreenFirst } from '../Screen/HomeScreenFirst/HomeScreenFirst';
@@ -9,10 +10,18 @@ import logo from './logo.png'
 import styles from './App.module.css';
 
 export function App() {
+
+	const [activeSlide, setActiveSlide] = useState(0);
+
+	const handleClick = () => {
+		setActiveSlide(1)
+		console.log('state', activeSlide);
+	}
+
 	return (
 		<div className={styles.appWrapper}>
 			<div className={styles.controlPanel}>
-				<button className={styles.homeButton}>
+				<button onClick={() => (setActiveSlide(0))} className={styles.homeButton}>
 					<Image
 						className={styles.homeImg}
 						src={home}
@@ -20,9 +29,9 @@ export function App() {
 				</button>
 				<div className={styles.homeText}>Project</div>
 			</div>
-			<Carousel>
-				{/* <HomeScreenFirst /> */}
-				{/* <HomeScreenSecond/> */}
+			<Carousel setActiveSlide={setActiveSlide} activeSlide={activeSlide}>
+				<HomeScreenFirst onClick={handleClick} />
+				<HomeScreenSecond activeSlide={activeSlide}/>
 				<HomeScreenThird/>
 			</Carousel>
 			<Image
