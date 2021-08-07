@@ -1,0 +1,64 @@
+.tabs {
+	margin: 22px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	/* position: relative; */
+}
+
+.tabsBlocks {
+
+}
+
+.tabsBlocksContent {
+	display: none;
+}
+
+.visible {
+	display: block;
+}
+
+.tabsLinks {
+    display: flex;
+    justify-content: space-between;
+	/* width: 90px; */
+	height: 20px;
+	position: absolute;
+	bottom: 31px;
+	left: 212px;
+}
+
+.tabsLinkTitle {
+	background-color: transparent;
+	border: none;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.tabsLinkTitleLeft {
+	background-position: 0px 0px;
+	background-image: url('./left.png');
+	width: 26px;
+	height: 20px;
+}
+
+.tabsLinkTitleRigt {
+	background-position: 15px 0px;
+	background-image: url('./right.png');
+	width: 26px;
+	height: 20px;
+}
+
+.tabsCircle {
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-image: url('./passive.png');
+	background-position: center;
+	width: 15px;
+	height: 15px;
+	margin: 0px 3px 0px 3px;
+	background-color: transparent;
+	border: none;
+}
+
+.active {
+	background-image: url('./active.png');
+}

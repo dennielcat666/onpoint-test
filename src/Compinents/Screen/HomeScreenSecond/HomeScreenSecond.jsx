@@ -1,7 +1,7 @@
-import styles from './HomeSlideSecond.module.css';
+import styles from './HomeScreenSecond.module.css';
 import cn from 'classnames'
 
-export function HomeSlideSecond() {
+export function HomeScreenSecond() {
 	return (
 		<li className={styles.wrapper}>
 			<div className={styles.title}>текст <br/>сообщения</div>

@@ -1,8 +1,8 @@
 import {Image} from '../Image/Image'
 import { Carousel } from '../Carousel/Carousel';
-import { HomeSlideFirst } from '../Slides/HomeSlideFirst/HomeSlideFirst';
-import { HomeSlideSecond } from '../Slides/HomeSlideSecond/HomeSlideSecond';
-import { HomeSlideThird } from '../Slides/HomeSlideThird/HomeSlideThird';
+import { HomeScreenFirst } from '../Screen/HomeScreenFirst/HomeScreenFirst';
+import { HomeScreenSecond } from '../Screen/HomeScreenSecond/HomeScreenSecond';
+import { HomeScreenThird } from '../Screen/HomeScreenThird/HomeScreenThird';
 
 import home from './home.svg'
 import logo from './logo.png'
@@ -21,9 +21,9 @@ export function App() {
 				<div className={styles.homeText}>Project</div>
 			</div>
 			<Carousel>
-				{/* <HomeSlideFirst /> */}
-				{/* <HomeSlideSecond/> */}
-				<HomeSlideThird/>
+				{/* <HomeScreenFirst /> */}
+				{/* <HomeScreenSecond/> */}
+				<HomeScreenThird/>
 			</Carousel>
 			<Image
 				className={styles.logoImg}

@@ -2,12 +2,12 @@ import {Button} from '../../Button/Button'
 import {Popup} from '../../Popup/Popup'
 
 import cn from 'classnames'
-import styles from './HomeSlideThird.module.css';
+import styles from './HomeScreenThird.module.css';
 
-export function HomeSlideThird() {
+export function HomeScreenThird() {
 	return (
 		<li className={styles.wrapper}>
-			{/* <div className={styles.contentBlock}>
+			<div className={styles.contentBlock}>
 				<div className={styles.textBlock}>
 					<div className={styles.title}>Ключевое сообщение</div>
 					<div className={styles.subText}>brend<span className={styles.subTextSpan}>xy</span></div>
@@ -25,12 +25,12 @@ export function HomeSlideThird() {
 							A arcu <br/>cursus vitae
 							<div className={cn(styles.img, styles.calendar)}></div>
 						</div>
-						<Button className={styles.buttonSlide}>Подробнее</Button>
+						<Button className={styles.buttonScreen}>Подробнее</Button>
 					</div>
 				</div>
-			</div> */}
+			</div>
 			<Popup/>
-			{/* <div className={cn(styles.img, styles.bottle)}></div>
+			<div className={cn(styles.img, styles.bottle)}></div>
 			<div className={cn(styles.img, styles.blueBubble1)}></div>
 			<div className={cn(styles.img, styles.blueBubble2)}></div>
 			<div className={cn(styles.img, styles.blueBubble3)}></div>
@@ -38,7 +38,7 @@ export function HomeSlideThird() {
 			<div className={cn(styles.img, styles.blueBubble5)}></div>
 			<div className={cn(styles.img, styles.pinkBubbleTop)}></div>
 			<div className={cn(styles.img, styles.pinkBubbleMiddle)}></div>
-			<div className={cn(styles.img, styles.pinkBubbleBottom)}></div> */}
+			<div className={cn(styles.img, styles.pinkBubbleBottom)}></div>
 		</li>
 	)
 }
