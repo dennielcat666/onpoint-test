@@ -7,11 +7,14 @@
 	padding: 0px 0px 0px 0px;
 	background-color: rgba(22, 39, 62, 0.7);
 	padding: 123px 61px 72px 140px;
-	display: none;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s linear, visibility 0.3s linear;
 }
 
 .showPopup {
-	display: block;
+	opacity: 1;
+	visibility: visible;
 }
 
 .popupBlock {

@@ -4,5 +4,5 @@
 
 .carouselBlock {
 	display: flex;
-	transition: .3s linear transform;
+	transition: 0.3s linear transform;
 }

@@ -25,7 +25,7 @@
 
 .scrollbar {
 	display: flex;
-    justify-content: center;
+	justify-content: center;
 	position: absolute;
 	width: 20px;
 	height: 470px;
@@ -46,29 +46,42 @@
 	background-repeat: no-repeat;
 	width: 20px;
 	height: 104px;
-	top: -1px;
+	top: 0px;
 	left: -8px;
 }
 
-.subText {
-	position: absolute;
+.subTextBlock {
+	position: relative;
 	border-radius: 39px;
-	padding: 25px 87px 0px 31px;
+	padding: 25px 87px 25px 31px;
 	width: 775px;
 	height: 445px;
 	overflow: hidden;
 	background-color: #ffffff;
+	z-index: 2;
+}
+
+.overflow {
+	overflow: hidden;
+	height: 100%;
+}
+
+.subText {
 	font-family: 'DINPro';
 	font-weight: 400;
 	font-size: 22px;
 	color: #242424;
 	letter-spacing: 0.3px;
 	line-height: 30px;
-	z-index: 2;
+	transform-origin: 0 0;
 }
 
 .subTextSpan {
 	font-weight: 700;
+}
+
+.subTextParagraph:not(:first-child) {
+	margin: 10px 0px 0px 0px;
 }
 
 .img {
@@ -140,7 +153,6 @@
 .spermBottomFurther.active {
 	animation: spermStart 1.5s 1 linear forwards;
 }
-
 
 @keyframes spermStart {
 	0% {

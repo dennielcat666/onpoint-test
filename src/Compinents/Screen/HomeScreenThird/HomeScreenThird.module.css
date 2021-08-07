@@ -47,14 +47,13 @@
 	position: relative;
 	border-radius: 40px;
 	background-color: #ffffff;
-	box-shadow:0 0 70px rgba(157, 185, 198, 0.4);
+	box-shadow: 0 0 70px rgba(157, 185, 198, 0.4);
 	font-family: 'DINPro';
 	font-weight: 400;
 	color: #2e2e2e;
 	font-size: 25px;
 	padding-top: 48px;
 	padding-bottom: 30px;
-
 }
 
 .infoColLeft {
@@ -168,23 +167,23 @@
 
 @keyframes blueBubble1 {
 	0% {
-		transform: translate(0px, 0px)
+		transform: translate(0px, 0px);
 	}
 
 	25% {
-		transform: translate(23px, 23px)
+		transform: translate(23px, 23px);
 	}
 
 	50% {
-		transform: translate(0px, 0px)
+		transform: translate(0px, 0px);
 	}
 
 	75% {
-		transform: translate(23px, -23px)
+		transform: translate(23px, -23px);
 	}
 
 	99.9% {
-		transform: translate(0px, 0px)
+		transform: translate(0px, 0px);
 	}
 }
 
@@ -200,23 +199,23 @@
 
 @keyframes blueBubble2 {
 	0% {
-		transform: translate(0px, 0px)
+		transform: translate(0px, 0px);
 	}
 
 	25% {
-		transform: translate(40px, 42px)
+		transform: translate(40px, 42px);
 	}
 
 	50% {
-		transform: translate(0px, 0px)
+		transform: translate(0px, 0px);
 	}
 
 	75% {
-		transform: translate(-40px, -42px)
+		transform: translate(-40px, -42px);
 	}
 
 	99.9% {
-		transform: translate(0px, 0px)
+		transform: translate(0px, 0px);
 	}
 }
 
@@ -227,32 +226,32 @@
 	bottom: 282px;
 	left: 11px;
 	z-index: 2;
-	animation: blueBubble3 30s infinite linear;
+	animation: blueBubble3 15s infinite linear;
 }
 
 @keyframes blueBubble3 {
 	0% {
-		transform: translate(0px, 0px)
+		transform: translate(0px, 0px);
 	}
 
 	20% {
-		transform: translate(21px, 20px)
+		transform: translate(10px, 20px);
 	}
 
 	40% {
-		transform: translateX(-21px)
+		transform: translateX(-10px);
 	}
 
 	60% {
-		transform: translateX(21px)
+		transform: translateX(10px);
 	}
 
 	80% {
-		transform: translate(-21px, -20px)
+		transform: translate(-10px, -20px);
 	}
 
 	99.9% {
-		transform: translate(0px, 0px)
+		transform: translate(0px, 0px);
 	}
 }
 
@@ -267,19 +266,19 @@
 
 @keyframes blueBubble4 {
 	0% {
-		transform: scale(1) translate(0px, 0px)
+		transform: scale(1) translate(0px, 0px);
 	}
 
 	50% {
-		transform: scale(1.2) translate(35px, 32px)
+		transform: scale(1.2) translate(35px, 32px);
 	}
 
 	99.9% {
-		transform: scale(1) translate(0px, 0px)
+		transform: scale(1) translate(0px, 0px);
 	}
 }
 
-.blueBubble5{
+.blueBubble5 {
 	background-image: url('./blueBubble5.png');
 	width: 143px;
 	height: 143px;
@@ -291,15 +290,15 @@
 
 @keyframes blueBubble5 {
 	0% {
-		transform: scale(1)
+		transform: scale(1);
 	}
 
 	50% {
-		transform: scale(0.8)
+		transform: scale(0.8);
 	}
 
 	99.9% {
-		transform: scale(1)
+		transform: scale(1);
 	}
 }
 
@@ -314,15 +313,15 @@
 
 @keyframes pinkBubbleTop {
 	0% {
-		transform: translate(0px, 0px)
+		transform: translate(0px, 0px);
 	}
 
 	50% {
-		transform: translate(45px, 39px)
+		transform: translate(45px, 39px);
 	}
 
 	99.9% {
-		transform: translate(0px, 0px)
+		transform: translate(0px, 0px);
 	}
 }
 
@@ -337,15 +336,15 @@
 
 @keyframes pinkBubbleMiddle {
 	0% {
-		transform: scale(1)
+		transform: scale(1);
 	}
 
 	50% {
-		transform: scale(0.5)
+		transform: scale(0.5);
 	}
 
 	99.9% {
-		transform: scale(1)
+		transform: scale(1);
 	}
 }
 
@@ -356,31 +355,31 @@
 	bottom: 140px;
 	left: 25px;
 	z-index: 2;
-	animation: pinkBubbleBottom 30s infinite linear;
+	animation: pinkBubbleBottom 10s infinite linear;
 }
 
 @keyframes pinkBubbleBottom {
 	0% {
-		transform: scale(1) translate(0px, 0px)
+		transform: scale(1) translate(0px, 0px);
 	}
 
 	20% {
-		transform: scale(1.3) translate(66px, 40px)
+		transform: scale(1.3) translate(10px, 8px);
 	}
 
 	40% {
-		transform: scale(1.3) translate(-66px, 44px)
+		transform: scale(1.3) translate(-10px, 8px);
 	}
 
 	60% {
-		transform: scale(1) translate(66px, -44px)
+		transform: scale(1) translate(10px, -8px);
 	}
 
 	80% {
-		transform: scale(1) translate(-66px, -40px)
+		transform: scale(1) translate(-10px, -8px);
 	}
 
 	99.9% {
-		transform: scale(1) translate(0px, 0px)
+		transform: scale(1) translate(0px, 0px);
 	}
 }
