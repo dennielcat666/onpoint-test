@@ -1,5 +1,7 @@
 # Тестовое задание для Onpoint
 
+Приложение сделано под iPad(1024x768)
+
 ## Стек
 
 1. ReactJS
@@ -15,3 +17,11 @@ npm start
 ```bash
 npm run build
 ```
+#### Deploy
+```bash
+npm run deploy
+```
+
+## GitHub Pages
+
+https://dennielcat666.github.io/onpoint-test/
