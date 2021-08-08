@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.568aa4f8.chunk.css",
+    "main.js": "./static/js/main.4fb8e69f.chunk.js",
+    "main.js.map": "./static/js/main.4fb8e69f.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.3a4c03db.js",
+    "runtime-main.js.map": "./static/js/runtime-main.3a4c03db.js.map",
+    "static/js/2.60c36e5f.chunk.js": "./static/js/2.60c36e5f.chunk.js",
+    "static/js/2.60c36e5f.chunk.js.map": "./static/js/2.60c36e5f.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.568aa4f8.chunk.css.map": "./static/css/main.568aa4f8.chunk.css.map",
+    "static/js/2.60c36e5f.chunk.js.LICENSE.txt": "./static/js/2.60c36e5f.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./static/media/Gilroy800.f39ff81c.woff",
+    "static/media/HomeScreenThird.module.css": "./static/media/pinkBubbleMiddle.561cb040.png",
+    "static/media/HomeScreenFirst.module.css": "./static/media/pinkSperm.0b0a1430.png",
+    "static/media/HomeScreenSecond.module.css": "./static/media/spermTopMiddle.a8f93b27.png",
+    "static/media/home.24c78988.svg": "./static/media/home.24c78988.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a4c03db.js",
+    "static/js/2.60c36e5f.chunk.js",
+    "static/css/main.568aa4f8.chunk.css",
+    "static/js/main.4fb8e69f.chunk.js"
+  ]
+}
